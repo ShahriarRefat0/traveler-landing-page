@@ -183,14 +183,36 @@ z-index: 200;
   color: #1E1D4C;
 }
 
-.category-times {
+.category-items {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 ;
   gap: 80px;
+  position: relative;
+  background-image: url('/assets/Rectangle\ 157.png');
+  background-repeat: no-repeat;
+  background-position-x: 280px;
+  background-position-y: bottom;
 }
 
-.category-time {
-  padding: 0px;
+
+.category-item {
+  padding: 65px 42px;
+}
+
+.category-item-tow{
+  border-radius: 35px;
+  background-color: white;
+    box-shadow: 0 6px 14px rgba(230, 228, 228, 0.5);
+    padding: 0 45px 45px 45px;
+}
+
+.category-item h4, .category-item-tow h4{
+  font-size: 20px;
+  font-weight: 600;
+        font-family: 'Open Sans',
+            'Helvetica Neue',
+            sans-serif;
+            padding: 10px;
 }
