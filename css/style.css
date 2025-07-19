@@ -384,3 +384,34 @@ z-index: 200;
     box-shadow: 4px 12px 14px rgb(218 217 217 / 50%);
     margin-right: 66px;
 }
+
+
+/* sponsor-section */
+
+.sponsor-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.third-sponsor{
+  padding-top:15px;
+  border-radius: 8px;
+  box-shadow: 4px 12px 14px rgb(218 217 217 / 50%);
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE STYLE */
+
+/* FOR SMALLER DEVICE */
+
+@media screen {
+  
+}
